@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 20;
+  padding: 50;
+  background-color: aliceblue;
+}
+
+canvas {
+  display: block;
+}
+
+#canvasContainer {
+  position: absolute;
+  left: 320px;
+  top: 100px;
+}
+
+h1 {
+  font-family: 'Rubik Pixels', cursive;
+  font-weight: 200;
+  font-size: 50px;
+}
+
+p1 {
+  color: white;
+  background-color: black;
+}
+
+p2 {
+  color: white;
+  background-color: black;
+}
+
+a {
+  color: white;
+}
