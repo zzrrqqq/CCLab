@@ -201,7 +201,7 @@ function draw() {
     if (a == 8) {
         fill(255);
         textSize(30);
-        text("Number8: Justice", 700, 170);
+        text("Number8: the Strength", 700, 170);
         image(img8pp, 800, 360);
         img8.resize(200, 200)
         image(img8, 1000, 360)
@@ -225,7 +225,7 @@ function draw() {
     if (a == 11) {
         fill(255);
         textSize(30);
-        text("Number11: Strenth", 700, 170);
+        text("Number11: the Justice", 700, 170);
         image(img11pp, 800, 360);
         img11.resize(200, 200)
         image(img11, 1000, 360)
