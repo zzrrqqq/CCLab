@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CCLab Final</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- the following div will contain the p5 canvas. -->
+    <div id="canvasContainer"></div>
+    <div class=box1>
+        <br>
+        No matter what the story consisted of. No matter what direction you go.
+        You should always believe you can reach the 21th, which is also the last
+        card of the Major Arcana: The World. The end of a journey, time for enjoying achievement
+        Please solve the puzzle to <br> go to the next page
+    </div>
+
+    <div class=box3>
+        <br>
+        Click a box to change the symbol of Tarot shown in it,
+        Every Tarot symbol has a serial number, the World's number is 21. Make the sum
+        of the numbers in each row, each column, and each diagonal 21, you win the game.
+        Press "h" to see the the serial numbers of the symbols
+    </div>
+
+    <img id="Back1" src="assets/back.png" alt="">
+    <img id="Back2" src="assets/back2.png" alt="">
+    <a href="tarot.html">
+        <img id="Back3" src="assets/back3.png" alt="">
+    </a>
+
+    <img id="Back4" src="assets/back4.png" alt="">
+
+    <p1>Click the paper to see the hint</p1>
+
+
+
+    <div id="hint-paper-box" onclick="this.style.display='none'">
+        <img id="hint-img" src="assets/scrolled-hint.png" alt="" srcset="">
+    </div>
+
+    <script src="puzzle.js"></script>
+</body>
+
+</html>
